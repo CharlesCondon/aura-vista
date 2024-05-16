@@ -1,0 +1,83 @@
+$bg-color: rgb(255,255,255);
+$txt-color: rgb(30,41,59);
+$alt-txt-color: rgb(110, 109, 114);
+$btn-color: rgb(99,102,241);
+
+.homeCont {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.homeSect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    .sectText {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        gap: 30px;
+
+        .verify {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            img {
+                width: 25px;
+                height: 25px;
+                padding-top: 4px;
+            }
+        }
+
+        h1 {
+            font-size: 72px;
+            font-weight: 900;
+        }
+        p {
+            font-size: 24px;
+        }
+        a {
+            width: fit-content;
+        }
+    }
+
+    .homeBtn {
+        background-color: $btn-color;
+        border: none;
+        color: white;
+        padding: 20px 25px;
+        border-radius: 999px;
+        font-size: 24px;
+        cursor: pointer;
+        transition: all .15s ease-in-out;
+    }
+    .homeBtn:hover {
+        color: $txt-color;
+    }
+
+    .sectImg {
+        max-height: 600px;
+        overflow: hidden;
+        border-radius: 10px;
+        max-width: 50%;
+
+        img {
+            width: 800px;
+            border-radius: 10px;
+        }
+    }
+
+    .centerText {
+        margin: auto;
+    }
+
+    .sectPoints {
+        max-width: 200px;
+        text-align: center;
+    }
+}

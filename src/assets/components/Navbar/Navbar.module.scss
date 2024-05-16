@@ -1,0 +1,44 @@
+$bg-color: rgb(255,255,255);
+$txt-color: rgb(30,41,59);
+$btn-color: rgb(99,102,241);
+
+.navCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    h1 {
+        font-size: 48px;
+    }
+}
+
+.navBtns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    
+
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        font-size: 24px;
+        transition: all .15s ease-in-out;
+    }
+    button:hover {
+        color: $btn-color;
+    }
+
+    .navLink {
+        background-color: $btn-color;
+        color: white;
+        padding: 20px 25px;
+        border-radius: 999px;
+    }
+    .navLink:hover {
+        color: $txt-color;
+    }
+}
