@@ -1,0 +1,63 @@
+$bg-color: rgb(255,255,255);
+$txt-color: rgb(30,41,59);
+$alt-txt-color: rgb(110, 109, 114);
+$btn-color: rgb(99,102,241);
+
+.contactCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactHead {
+    text-align: center;
+    margin: 40px 0;
+    h1 {
+        font-size: 52px;
+        color: $btn-color;
+    }
+}
+
+.contactFormCont {
+    background-color: $btn-color;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.contactInput {
+    background-color: $bg-color;
+    border: none;
+    border-bottom: 1px solid $btn-color;
+    width: 100%;
+    height: 40px;
+    color: black;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+textarea {
+    height: 100px !important;
+    resize: none;
+}
+
+.contactSubmit {
+    background-color: $bg-color;
+    border: none;
+    border: 1px solid $btn-color;
+    width: 100%;
+    height: 40px;
+    color: $btn-color;
+    cursor: pointer; 
+    border-radius: 5px;
+}
+.contactSubmit:hover {
+    background-color: rgba(255, 237, 222,.1);
+}
