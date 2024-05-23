@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './Navbar.module.scss';
 import { Link } from 'react-router-dom';
+import logo from '../../images/logo.png';
 
 function Navbar() {
     return (
         <div className={styles.navCont}>
-            <h1>Aura Vista</h1>
+            <img src={logo} alt='' />
             <div className={styles.navBtns}>
                 <Link to={'/'}><button>Home</button></Link>
                 <Link to={'/services'}><button>Services</button></Link>
