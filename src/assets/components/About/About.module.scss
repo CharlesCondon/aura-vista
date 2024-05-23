@@ -66,3 +66,44 @@ $btn-color: rgb(99,102,241);
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .aboutCont {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        padding: 15px;
+        padding-bottom: 10rem;
+    }
+    
+    .aboutHead {
+        max-width: 100%;
+    }
+    
+    .aboutSect {
+        flex-direction: column-reverse;
+    }
+    
+    .aboutDoubleImg {
+        flex: 1;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-around;
+        gap: 10px;
+        img {
+            width: 45%;
+            height: auto;
+            border-radius: 10px;
+        }
+    }
+    
+    .aboutImg {
+        flex: 1;
+        box-sizing: border-box;
+    
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    }
+}

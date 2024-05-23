@@ -7,7 +7,7 @@ $alt-txt-color: rgb(110, 109, 114);
     padding: 0;
     margin: 0;
     color: $txt-color;
-
+    
     p {
         color: $alt-txt-color;
     }
@@ -16,5 +16,5 @@ $alt-txt-color: rgb(110, 109, 114);
 .AppCont {
     position: relative;
     min-height: 100vh;
-
+    
 }

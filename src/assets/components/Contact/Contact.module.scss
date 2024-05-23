@@ -61,3 +61,18 @@ textarea {
 .contactSubmit:hover {
     background-color: rgba(255, 237, 222,.1);
 }
+
+@media only screen and (max-width: 768px) {
+    .contactCont {
+        padding: 0 15px;
+        padding-bottom: 10rem;
+    }
+    
+    .contactHead {
+        margin: 20px 0;
+    }
+    
+    .contactFormCont {
+        width: 75%;
+    }
+}

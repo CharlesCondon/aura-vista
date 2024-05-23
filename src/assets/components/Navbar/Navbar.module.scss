@@ -9,9 +9,6 @@ $btn-color: rgb(99,102,241);
     justify-content: space-between;
     padding: 20px 40px;
 
-    h1 {
-        font-size: 48px;
-    }
     img {
         width: 65px;
     }
@@ -43,5 +40,27 @@ $btn-color: rgb(99,102,241);
     }
     .navLink:hover {
         color: $txt-color;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navCont {
+        padding: 10px 15px;
+    
+        img {
+            width: 45px;
+        }
+    }
+    
+    .navBtns {
+        gap: 10px;
+        
+        button {
+            font-size: 16px;
+        }
+    
+        .navLink {
+            padding: 5px 10px;
+        }
     }
 }
