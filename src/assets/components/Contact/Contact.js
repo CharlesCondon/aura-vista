@@ -12,7 +12,7 @@ function Contact() {
 				<form
 					className={styles.contactForm}
 					id="contactForm"
-					action="https://formspree.io/f/mzbnvyjo"
+					action="https://formspree.io/f/mnqekqgb"
 					method="POST"
 				>
 					<input
